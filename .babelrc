@@ -1,0 +1,33 @@
+{
+	"presets": [
+		[
+			"@babel/preset-env",
+			{
+				"targets": {
+					"node": "v14.17.0"
+				}
+			}
+		]
+	],
+	"plugins": [
+		[
+			"module-resolver",
+			{
+				"alias": {
+					"$common": ["./src/common"],
+					"$controllers": ["./src/controllers"],
+					"$middlewares": ["./src/middlewares"],
+					"$models": ["./src/models"],
+					"$routes": ["./src/routes"],
+					"$utils": ["./src/utils"]
+				}
+			}
+		],
+		[
+			"@babel/plugin-transform-runtime",
+			{
+				"regenerator": true
+			}
+		]
+	]
+}

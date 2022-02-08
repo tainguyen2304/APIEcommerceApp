@@ -1,0 +1,32 @@
+POST http://localhost:3001/product/
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWVlM2UzMTViNmQ5ZTFiNDRkM2VjOGEiLCJyb2xlcyI6WyJHdWVzdCJdLCJpYXQiOjE2NDMwMTMzOTd9.213rbaHGn24dNj6qC1rKLX8uIS5GuunV7psLZ-1v4ls
+
+{
+   		"name": "Dầu gội mềm mượt,óng mượt diệu kỳ Sunsilk (320g)",
+		"img": "https://cf.shopee.vn/file/4ab735da8e2a89ffe6dc4bbc7b29997e",
+		"newest": true,
+		"price": {
+			"actual": 89.000,
+			"old": null
+		},
+		"color": "vàng",
+		"category": "Sunsilk",
+		"desc": "nDầu gội mềm mượt diệu kỳ Sunsilk (320g)."
+}
+
+###
+GET http://localhost:3001/product/
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWVlM2UzMTViNmQ5ZTFiNDRkM2VjOGEiLCJyb2xlcyI6WyJHdWVzdCJdLCJpYXQiOjE2NDMwMTMzOTd9.213rbaHGn24dNj6qC1rKLX8uIS5GuunV7psLZ-1v4ls
+
+###
+GET http://localhost:3001/product/newest
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWVlM2UzMTViNmQ5ZTFiNDRkM2VjOGEiLCJyb2xlcyI6WyJHdWVzdCJdLCJpYXQiOjE2NDMwMTMzOTd9.213rbaHGn24dNj6qC1rKLX8uIS5GuunV7psLZ-1v4ls
+
+###
+GET http://localhost:3001/product/fillter?category=nivea&sortByPrice=asc
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWVlM2UzMTViNmQ5ZTFiNDRkM2VjOGEiLCJyb2xlcyI6WyJHdWVzdCJdLCJpYXQiOjE2NDMwMTMzOTd9.213rbaHGn24dNj6qC1rKLX8uIS5GuunV7psLZ-1v4ls
+

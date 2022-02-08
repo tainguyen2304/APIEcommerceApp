@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"module": "es6",
+		"target": "es6",
+		"moduleResolution": "node",
+		"baseUrl": "./",
+		"paths": {
+			"$common/*": ["src/common/*"],
+			"$controllers/*": ["src/controllers/*"],
+			"$middlewares/*": ["src/middlewares/*"],
+			"$models/*": ["src/models/*"],
+			"$routes/*": ["src/routes/*"],
+			"$utils/*": ["src/utils/*"]
+		}
+	}
+}

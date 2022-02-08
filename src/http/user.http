@@ -1,0 +1,22 @@
+POST http://localhost:3001/auth/register
+content-type: application/json
+
+{
+  "email": "giaphong123@gmail.com",
+  "password": "111111",
+  "firstName": "phong",
+  "lastName": "ong",
+  "gender": "male",
+  "birthday": "1997/08/3",
+  "phone": "0868383897",
+  "address": "chợ bình tây, đường tháp mười, quận 6, hồ chí minh"
+}
+
+###
+POST http://localhost:3001/auth/login
+content-type: application/json
+
+{
+  "email": "tai123@gmail.com",
+  "password": "111111"
+}

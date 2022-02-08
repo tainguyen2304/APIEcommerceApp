@@ -1,0 +1,13 @@
+POST http://localhost:3001/review
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWYxOTIzZmM4ZmVkMjA1ZTQzNjk5NDgiLCJyb2xlcyI6WyJHdWVzdCJdLCJpYXQiOjE2NDMyMjI0ODV9.Zvnv8EJ6kJ2NWgD7kY5EpjgwUbCyxNNUqZcOwf9WE9k
+
+{
+  "postedBy": "61ee3e315b6d9e1b44d3ec8a",
+  "content": "Mình mua ở đây hàng tháng, lần nào giao tới cũng chỉn chu và kĩ lưỡng."
+}
+
+###
+GET http://localhost:3001/review/random
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWYxOTIzZmM4ZmVkMjA1ZTQzNjk5NDgiLCJyb2xlcyI6WyJHdWVzdCJdLCJpYXQiOjE2NDMyMjI0ODV9.Zvnv8EJ6kJ2NWgD7kY5EpjgwUbCyxNNUqZcOwf9WE9k

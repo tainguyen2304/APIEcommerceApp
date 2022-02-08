@@ -1,0 +1,18 @@
+GET  http://localhost:3001/todo
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWVjZjllYTVkOTU4NjQxNmQ2MDllZTgiLCJyb2xlcyI6WyJHdWVzdCJdLCJpYXQiOjE2NDI5NTQ3ODN9.fNYzAKXwlm_hnFPjmErpzXMxO9RU13oI8fmBDRKrNPo
+
+###
+POST  http://localhost:3001/todo
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWVjZjllYTVkOTU4NjQxNmQ2MDllZTgiLCJyb2xlcyI6WyJHdWVzdCJdLCJpYXQiOjE2NDI5NTQ3ODN9.fNYzAKXwlm_hnFPjmErpzXMxO9RU13oI8fmBDRKrNPo
+
+{
+  "content": "Vẽ 1 bức tranh.",
+  "isCompleted": "false"
+}
+
+###
+GET  http://localhost:3001/todo/61f04b4e5807ca0e020f1db0
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWVjZjllYTVkOTU4NjQxNmQ2MDllZTgiLCJyb2xlcyI6WyJHdWVzdCJdLCJpYXQiOjE2NDI5NTQ3ODN9.fNYzAKXwlm_hnFPjmErpzXMxO9RU13oI8fmBDRKrNPo
