@@ -3,7 +3,8 @@
 	"version": "0.1.0",
 	"private": true,
 	"scripts": {
-		"start": "npx nodemon -q -x babel-node -r dotenv/config ./src/index.js dotenv_config_path=./.env",
+		"start": "node build/index.js",
+		"dev": "npx nodemon -q -x babel-node -r dotenv/config ./src/index.js dotenv_config_path=./.env",
 		"build": "babel ./src -d ./build",
 		"lint": "eslint --fix 'src/**/*.js'",
 		"pretty": "prettier --write 'src/**/*.js'"
