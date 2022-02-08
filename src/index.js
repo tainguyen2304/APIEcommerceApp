@@ -9,7 +9,7 @@ import express from 'express';
 (async () => {
 	const app = express();
 	const host = process.env.HOST || 'localhost';
-	const port = process.env.PORT || 3000;
+	const port = process.env.PORT || 3001;
 
 	isDevelopment && app.use(logger);
 
